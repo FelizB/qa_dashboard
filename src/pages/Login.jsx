@@ -24,7 +24,7 @@ const Login = () => {
           <h6>
             Not a member?
             <span>
-              <Link to="/login" className="link">
+              <Link to="/register" className="link">
                 Register
               </Link>
             </span>

@@ -1,0 +1,46 @@
+.dashboard {
+  background-color: aliceblue;
+  border: solid red;
+  height: 100vh;
+  overflow: hidden;
+}
+.dashboardPage {
+  width: 100% !important;
+  border: solid;
+  overflow: auto;
+  padding: 5px;
+  margin: 2px;
+}
+.nav {
+  width: 100%;
+  border: solid;
+}
+.row {
+  padding: 0 !important;
+}
+.col {
+  padding: 0 !important;
+}
+
+.smallSide {
+  border: solid;
+}
+.dashItems {
+  width: 100%;
+  border: solid;
+}
+
+@media (min-width: 992px) {
+  .dashboard {
+    grid-template-columns: auto 1fr;
+  }
+  .dashboardPage {
+    width: 90%;
+  }
+  .bigSide {
+    display: none;
+  }
+  .smallSide {
+    display: grid;
+  }
+}

@@ -15,8 +15,8 @@ span {
   color: crimson;
 }
 .frontPic {
-  max-height: 50vw;
-  max-width: 50vw;
+  max-height: 35vw;
+  max-width: 35vw;
 }
 .LandButtons {
   padding: 2rem;
@@ -27,4 +27,10 @@ span {
   width: 150px;
   background: crimson;
   border-color: crimson;
+}
+@media screen and (min-height: 800px) {
+  .frontPic {
+    max-height: 50vw;
+    max-width: 50vw;
+  }
 }

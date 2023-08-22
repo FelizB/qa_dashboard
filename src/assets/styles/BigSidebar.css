@@ -1,6 +1,6 @@
 .BigSidebar {
   height: 100vh;
-  border: solid;
+  background: white;
 }
 .title {
   margin-top: 10px;
@@ -11,4 +11,10 @@
 hr {
   width: 90%;
   margin: 0 auto;
+}
+@media screen and (max-width: 942px) {
+  .title h4 {
+    font-size: 1.2rem;
+    padding-top: 0.5rem;
+  }
 }
